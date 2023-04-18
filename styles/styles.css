@@ -1,0 +1,64 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@media (min-width:480px){
+#hero > h1{color:red;}}
+body {
+    background-image: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1, p, ul, li {
+    color:white;
+}
+
+p{
+    margin:0px;
+    font-size: 16px;
+padding:10px;
+}
+
+img {width:20px;}
+
+ul {
+    list-style: none;
+    padding:0px;
+    display:flex;
+    flex-flow:column nowrap;
+    margin:0px;
+}
+li {
+    border:1px solid white;
+    height: 30px;
+    text-align: center;
+    padding-top:20px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.circle {display:flex;
+justify-content: center;
+border:1px solid white;
+border-radius:50%;
+height: 30px;
+width: 30px;}
+
+header {display:flex;
+justify-content: center;}
+
+#blank {border:1px solid white;
+width:1px;
+height:30px;
+border-right: none;
+border-top:none;
+border-bottom:none;
+margin:0 auto;}
+
+
+#hero {border:1px solid white;
+border-right: none;
+border-left:none;}
